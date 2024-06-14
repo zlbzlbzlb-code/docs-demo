@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head:[["link",{rel:"icon",href:"/background.png"}]],
+  base:"/docs-demo/",
+  head:[["link",{rel:"icon",href:"/docs-demo/background.png"}]],
   title: " 我的文档项目",
   description: "A VitePress Site",
   themeConfig: {
